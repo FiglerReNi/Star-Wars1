@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.04.18., 19:11:01
+    Author     : FReni
+*/
+* {
+     box-sizing: border-box;
+}
+body {
+    background-image: url("r2d2.jpg");
+}
+h1 {
+    color: yellow;
+    margin-left: 40%;
+    text-align: justify;
+    padding-right: 130px;
+    margin-top: 30px;
+}
+.stilus1{
+    color: black;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+table, th, td {
+     border: 1px dashed black;
+}
+
+table {
+    text-align: center;
+    margin-left: 140px;
+}
+td {
+    padding: 5px;
+}
+.stilus2{
+    background-color: white;
+    color: black;
+    padding: 60px 80px;
+    margin: 60px;
+    text-align: justify;
+}
+img{
+    border: 2px dashed blue;
+    margin-left: 200px;
+}
+mark {
+    background-color: transparent;
+    color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:active {
+    color: red;
+}
+a.aktiv {
+    text-decoration:none;
+    color: black;
+}
+li a:visited:not(a.aktiv) {
+    color: black;
+}
+.stilus4 {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+ .stilus3{
+    background-color: white;
+    color: black;
+    padding: 60px 60px;
+    margin: 60px;
+ }
